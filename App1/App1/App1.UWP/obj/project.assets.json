@@ -8613,11 +8613,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\shag\\диплом\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
+      "projectUniqueName": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
       "projectName": "App1.UWP",
-      "projectPath": "D:\\shag\\диплом\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
+      "projectPath": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1.UWP\\App1.UWP.csproj",
       "packagesPath": "C:\\Users\\Yuliia\\.nuget\\packages\\",
-      "outputPath": "D:\\shag\\диплом\\App1\\App1\\App1.UWP\\obj\\",
+      "outputPath": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8637,8 +8637,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\shag\\диплом\\App1\\App1\\App1\\App1.csproj": {
-              "projectPath": "D:\\shag\\диплом\\App1\\App1\\App1\\App1.csproj"
+            "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1\\App1.csproj": {
+              "projectPath": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1\\App1.csproj"
             }
           }
         }

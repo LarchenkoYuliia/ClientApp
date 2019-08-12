@@ -1156,11 +1156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\shag\\диплом\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
+      "projectUniqueName": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
       "projectName": "App1.iOS",
-      "projectPath": "D:\\shag\\диплом\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
+      "projectPath": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
       "packagesPath": "C:\\Users\\Yuliia\\.nuget\\packages\\",
-      "outputPath": "D:\\shag\\диплом\\App1\\App1\\App1.iOS\\obj\\",
+      "outputPath": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1177,8 +1177,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\shag\\диплом\\App1\\App1\\App1\\App1.csproj": {
-              "projectPath": "D:\\shag\\диплом\\App1\\App1\\App1\\App1.csproj"
+            "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1\\App1.csproj": {
+              "projectPath": "D:\\shag\\диплом\\reposClient\\App1\\App1\\App1\\App1.csproj"
             }
           }
         }
