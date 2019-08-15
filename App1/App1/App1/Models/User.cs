@@ -4,7 +4,7 @@ using System.Text;
 
 namespace App1.Models
 {
-    public class User
+    public class User : UserRegistration
     {
         /// <summary>
        /// Уникальный номер пользователя
@@ -20,16 +20,5 @@ namespace App1.Models
        /// Фамилия
        /// </summary>
        public string UserSurname { get; set; }
-
-       /// <summary>
-       /// Логин
-       /// </summary>
-       public string UserLogin { get; set; }
-
-       /// <summary>
-       /// Пароль
-       /// </summary>
-       public string UserPassword { get; set; }
-
     }
 }
