@@ -20,3 +20,7 @@ D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.As
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp

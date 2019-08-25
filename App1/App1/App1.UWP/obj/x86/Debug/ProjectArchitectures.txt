@@ -1,1 +1,1 @@
-D:\shag\диплом\App1\App1\App1.UWP\App1.UWP.csproj;x86
+D:\shag\диплом\reposClient\App1\App1\App1.UWP\App1.UWP.csproj;x86

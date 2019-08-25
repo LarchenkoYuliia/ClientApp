@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=0aabc1de-ec24-4f88-b511-a3c41b061b00</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\shag\диплом\App1\App1\App1.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>7E311AD6EBE357F061E4A05948F6B167EA13FF81233E367E4EEEDF1B1D8EAB1B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>9a9adf72-64d0-4ee8-a1ad-663a20e2d771_1.0.0.0_x86__r6cahp93362e0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9a9adf72-64d0-4ee8-a1ad-663a20e2d771_r6cahp93362e0!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-12T18:48:33.954</Modified>
+      <Modified>2019-08-25T09:37:34.077</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
       <PackagePath>entrypoint\App1.UWP.exe</PackagePath>
-      <Modified>2019-08-12T18:48:23.784</Modified>
+      <Modified>2019-08-25T09:37:24.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -758,160 +758,160 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-11-13T17:15:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2019-08-12T18:44:48.454</Modified>
+      <Modified>2019-08-25T09:36:55.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.905</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:51.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.904</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:52.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:53.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-08-04T09:06:53.153</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-08-04T09:06:53.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.xr.xml">
       <PackagePath>App1.UWP.xr.xml</PackagePath>
       <Modified>2019-08-04T12:47:42.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-12T18:48:22.194</Modified>
+      <Modified>2019-08-25T09:37:23.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-08-12T18:48:22.195</Modified>
+      <Modified>2019-08-25T09:37:23.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -977,13 +977,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-11-13T17:15:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-08-12T18:48:29.153</Modified>
+      <Modified>2019-08-25T09:11:09.753</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\shag\диплом\App1\App1\App1.UWP\bin\x86\Debug\Core\App1.UWP.exe">
+    <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\App1.UWP.exe">
       <PackagePath>App1.UWP.exe</PackagePath>
-      <Modified>2019-08-12T18:48:33.865</Modified>
+      <Modified>2019-08-25T09:37:34.060</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

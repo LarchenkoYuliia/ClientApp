@@ -1,4 +1,4 @@
-﻿using App1.Extention;
+﻿using App1.Base;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,7 +6,6 @@ using System.Runtime.CompilerServices;
 
 namespace App1.Base
 {
-    //todo: проверить расширения!!! - ошибка. 
     public class BaseNotify : INotifyPropertyChanged, IDisposable
     {
         readonly Dictionary<string, List<Action>> _actions = new Dictionary<string, List<Action>>();
@@ -59,8 +58,21 @@ namespace App1.Base
                 PropertyChanged -= (PropertyChangedEventHandler)p;
             }
         }
+    }
 
-        public bool SetProperty<T>(this PropertyChangedEventHandler handler, object sender, ref T currentValue, T newValue, [CallerMemberName] string propertyName = "")
+    public interface IDirty
+    {
+        bool IsDirty { get; set; }
+    }
+}
+
+
+namespace System.ComponentModel
+{
+    public static class BaseNotify
+    {
+        //Just adding some new funk.tionality to System.ComponentModel
+        public static bool SetProperty<T>(this PropertyChangedEventHandler handler, object sender, ref T currentValue, T newValue, [CallerMemberName] string propertyName = "")
         {
             if (EqualityComparer<T>.Default.Equals(currentValue, newValue))
             {
@@ -76,9 +88,5 @@ namespace App1.Base
             return true;
         }
     }
-
-    public interface IDirty
-    {
-        bool IsDirty { get; set; }
-    }
 }
+
