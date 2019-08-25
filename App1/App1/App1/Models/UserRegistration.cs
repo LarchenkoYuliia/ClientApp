@@ -15,5 +15,10 @@ namespace App1.Models
         /// Пароль
         /// </summary>
         public string UserPassword { get; set; }
+
+        /// <summary>
+        /// Пароль повторный
+        /// </summary>
+        public string UserPasswordRe { get; set; }
     }
 }

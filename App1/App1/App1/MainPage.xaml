@@ -29,6 +29,7 @@
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3">
                 <Entry
+                    x:Name="LoginTextInput"
                     Text="{Binding UserLogin}">
                 </Entry>
             </inputLayout:SfTextInputLayout>
@@ -44,6 +45,7 @@
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3">
                 <Entry
+                    x:Name="PasswordTextInput"
                     Text="{Binding UserPassword}">
                 </Entry>
             </inputLayout:SfTextInputLayout>
@@ -55,6 +57,15 @@
                 TextColor="White"
                 CornerRadius="8"
                 HeightRequest="50"> 
+            </buttons:SfButton>
+            <buttons:SfButton
+                x:Name="authButton"
+                Text="Зарегестрироваться"
+                Clicked="AuthButton_Clicked"
+                BackgroundColor="#19a5a9"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="50">
             </buttons:SfButton>
         </StackLayout>
     </ContentPage.Content>

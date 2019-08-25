@@ -96,6 +96,22 @@ namespace App1.ViewModel
             }
         }
 
+        /// <summary>
+        /// Пароль повторный
+        /// </summary>
+        public string UserPasswordRe
+        {
+            get { return _user.UserPasswordRe; }
+            set
+            {
+                if (_user.UserPasswordRe != value)
+                {
+                    _user.UserPasswordRe = value;
+                    OnPropertyChanged("UserPasswordRe");
+                }
+            }
+        }
+
         protected void OnPropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)

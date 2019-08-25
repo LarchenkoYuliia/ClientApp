@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App1.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,23 @@ namespace App1
         public MainPage()
         {
             InitializeComponent();
+            
         }
+
+        private LoginViewModel _viewModel = new LoginViewModel();
 
         private void Login_Clicked(object sender, EventArgs e)
         {
-            loginButton.Text = "Okey";
+            _viewModel.Login =  LoginTextInput.Text.ToString();
+            _viewModel.Password = PasswordTextInput.Text.ToString();
+            DisplayAlert("log", "log", "ok", "cancel");
+        }
+
+        private void AuthButton_Clicked(object sender, EventArgs e)
+        {
+            var _regPage = new RegistrationPage();
+            Navigation.PushModalAsync(_regPage);
+            DisplayAlert("auth", "auth", "ok", "cancel");
         }
     }
 }
