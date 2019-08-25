@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              xmlns:local="clr-namespace:App1"
              x:Class="App1.MainPage">
 
@@ -8,23 +10,52 @@
         <StackLayout
             HorizontalOptions="Fill"
             VerticalOptions="CenterAndExpand">
-            <Grid>
+            <Label 
+                Text="Войти"
+                HeightRequest="50"
+                TextColor="#19a5a9"
+                FontAttributes='Bold'
+                FontSize="30"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+            <inputLayout:SfTextInputLayout
+                Hint="Логин"
+                HeightRequest="50"
+                BackgroundColor="Transparent"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                FocusedColor="#19a5a9"
+                UnfocusedColor="#75a2a3">
                 <Entry
-                    Placeholder="login"
                     Text="{Binding UserLogin}">
                 </Entry>
-            </Grid>
-            <Grid>
+            </inputLayout:SfTextInputLayout>
+            <inputLayout:SfTextInputLayout
+                Hint="Пароль"
+                HeightRequest="50"
+                BackgroundColor="Transparent"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                EnablePasswordVisibilityToggle="true"
+                ContainerType="Outlined"
+                OutlineCornerRadius="8"
+                FocusedColor="#19a5a9"
+                UnfocusedColor="#75a2a3">
                 <Entry
-                    Placeholder="password"
                     Text="{Binding UserPassword}">
                 </Entry>
-            </Grid>
-            <Button
+            </inputLayout:SfTextInputLayout>
+            <buttons:SfButton
                 x:Name="loginButton"
-                Text="Log in"
-                Clicked="Login_Clicked">
-            </Button>
+                Text="Войти"
+                Clicked="Login_Clicked"
+                BackgroundColor="#19a5a9"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="50"> 
+            </buttons:SfButton>
         </StackLayout>
     </ContentPage.Content>
 

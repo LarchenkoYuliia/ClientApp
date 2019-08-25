@@ -520,7 +520,7 @@
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.licensing\17.2.0.39\lib\uap10.0\Syncfusion.Licensing.dll">
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.licensing\17.2.0.46\lib\uap10.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.sfchart.uwp\17.2.0.39\lib\uap10.0\Syncfusion.SfChart.UWP.dll">
@@ -538,10 +538,10 @@
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.buttons\17.2.0.39\lib\uap10.0\Syncfusion.Buttons.XForms.dll">
       <PackagePath>Syncfusion.Buttons.XForms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.39\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
       <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.39\lib\uap10.0\Syncfusion.Core.XForms.dll">
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.dll">
       <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sfautocomplete\17.2.0.39\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.UWP.dll">
@@ -724,16 +724,16 @@
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.buttons\17.2.0.39\lib\uap10.0\Syncfusion.Buttons.XForms.UWP\Themes\Generic.xaml">
       <PackagePath>Syncfusion.Buttons.XForms.UWP\Themes\Generic.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.39\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
       <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.39\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\DropDownIcon.xaml">
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\DropDownIcon.xaml">
       <PackagePath>Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\DropDownIcon.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.39\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleCollapsedIcon.xaml">
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleCollapsedIcon.xaml">
       <PackagePath>Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleCollapsedIcon.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.39\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleVisibleIcon.xaml">
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleVisibleIcon.xaml">
       <PackagePath>Syncfusion.Core.XForms.UWP\TILRenderer\ToggleIcons\ToggleVisibleIcon.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">

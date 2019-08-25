@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
-      "Syncfusion.Licensing/17.2.0.39": {
+      "Syncfusion.Licensing/17.2.0.46": {
         "type": "package",
         "compile": {
           "lib/MonoAndroid10/Syncfusion.Licensing.dll": {}
@@ -26,10 +26,10 @@
           "lib/MonoAndroid10/Syncfusion.Buttons.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/17.2.0.39": {
+      "Syncfusion.Xamarin.Core/17.2.0.46": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "17.2.0.39"
+          "Syncfusion.Licensing": "17.2.0.46"
         },
         "compile": {
           "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll": {},
@@ -416,6 +416,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Syncfusion.Xamarin.Buttons": "17.2.0.39",
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
           "Syncfusion.Xamarin.SfAutoComplete": "17.2.0.39",
           "Syncfusion.Xamarin.SfChart": "17.2.0.39",
           "Xamarin.Forms": "3.4.0.1008975"
@@ -430,10 +431,10 @@
     }
   },
   "libraries": {
-    "Syncfusion.Licensing/17.2.0.39": {
-      "sha512": "Xr7/eHyoic0kLHTVJhTzxfCyFTfvCK8FCL2jdFwKtvoLxsd5DIECB8nLzphdiM7eowiOdkr/4vDTUtqprdeEqA==",
+    "Syncfusion.Licensing/17.2.0.46": {
+      "sha512": "7Z0xCojkmYQlpzlJxpr/0IaMMfYeL3Os9BgpqBC93HlwL5mTX5CyoyVWy6rBsqH8skfcriY+JmnZHtPlXedHnA==",
       "type": "package",
-      "path": "syncfusion.licensing/17.2.0.39",
+      "path": "syncfusion.licensing/17.2.0.46",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -453,7 +454,7 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.17.2.0.39.nupkg.sha512",
+        "syncfusion.licensing.17.2.0.46.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
@@ -488,10 +489,10 @@
         "syncfusion.xamarin.buttons.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Core/17.2.0.39": {
-      "sha512": "qj7BGYaOAhhEDq7KHBkqwGojAkxk67lsCjvsu+v+GcqyD8tHQS8Z4sgMWsojJxA2kh+NBz0DiocnsXPOdHPyFg==",
+    "Syncfusion.Xamarin.Core/17.2.0.46": {
+      "sha512": "4o9KuSs2XmtPg+d7YpQerMLthFn3M4Qc1MiErpntoHwPnLZrDbFYNxAAbONIxpuybR0tudwEInaUEZtwqihP2A==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/17.2.0.39",
+      "path": "syncfusion.xamarin.core/17.2.0.46",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -515,7 +516,7 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.17.2.0.39.nupkg.sha512",
+        "syncfusion.xamarin.core.17.2.0.46.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
       ]
     },

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "7bb684d3580c024712fb3c0fd567a025e78f32c6"
+    "signature": "882a8399226ed56ece4e3b0ad86bfc8cc0cf2d67"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Syncfusion.Xamarin.Buttons": "17.2.0.39",
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
           "Syncfusion.Xamarin.SfAutoComplete": "17.2.0.39",
           "Syncfusion.Xamarin.SfChart": "17.2.0.39",
           "Xamarin.Forms": "3.4.0.1008975"
@@ -25,17 +26,17 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Syncfusion.Licensing/17.2.0.39": {
+      "Syncfusion.Licensing/17.2.0.46": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "17.2.0.39",
-            "fileVersion": "17.2.0.39"
+            "assemblyVersion": "17.2.0.46",
+            "fileVersion": "17.2.0.46"
           }
         }
       },
       "Syncfusion.Xamarin.Buttons/17.2.0.39": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "17.2.0.39",
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
@@ -45,20 +46,20 @@
           }
         }
       },
-      "Syncfusion.Xamarin.Core/17.2.0.39": {
+      "Syncfusion.Xamarin.Core/17.2.0.46": {
         "dependencies": {
-          "Syncfusion.Licensing": "17.2.0.39"
+          "Syncfusion.Licensing": "17.2.0.46"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
-            "assemblyVersion": "17.2451.0.39",
-            "fileVersion": "17.2451.0.39"
+            "assemblyVersion": "17.2451.0.46",
+            "fileVersion": "17.2451.0.46"
           }
         }
       },
       "Syncfusion.Xamarin.SfAutoComplete/17.2.0.39": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "17.2.0.39",
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
@@ -70,7 +71,7 @@
       },
       "Syncfusion.Xamarin.SfChart/17.2.0.39": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "17.2.0.39",
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
@@ -118,12 +119,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Syncfusion.Licensing/17.2.0.39": {
+    "Syncfusion.Licensing/17.2.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Xr7/eHyoic0kLHTVJhTzxfCyFTfvCK8FCL2jdFwKtvoLxsd5DIECB8nLzphdiM7eowiOdkr/4vDTUtqprdeEqA==",
-      "path": "syncfusion.licensing/17.2.0.39",
-      "hashPath": "syncfusion.licensing.17.2.0.39.nupkg.sha512"
+      "sha512": "sha512-7Z0xCojkmYQlpzlJxpr/0IaMMfYeL3Os9BgpqBC93HlwL5mTX5CyoyVWy6rBsqH8skfcriY+JmnZHtPlXedHnA==",
+      "path": "syncfusion.licensing/17.2.0.46",
+      "hashPath": "syncfusion.licensing.17.2.0.46.nupkg.sha512"
     },
     "Syncfusion.Xamarin.Buttons/17.2.0.39": {
       "type": "package",
@@ -132,12 +133,12 @@
       "path": "syncfusion.xamarin.buttons/17.2.0.39",
       "hashPath": "syncfusion.xamarin.buttons.17.2.0.39.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Core/17.2.0.39": {
+    "Syncfusion.Xamarin.Core/17.2.0.46": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qj7BGYaOAhhEDq7KHBkqwGojAkxk67lsCjvsu+v+GcqyD8tHQS8Z4sgMWsojJxA2kh+NBz0DiocnsXPOdHPyFg==",
-      "path": "syncfusion.xamarin.core/17.2.0.39",
-      "hashPath": "syncfusion.xamarin.core.17.2.0.39.nupkg.sha512"
+      "sha512": "sha512-4o9KuSs2XmtPg+d7YpQerMLthFn3M4Qc1MiErpntoHwPnLZrDbFYNxAAbONIxpuybR0tudwEInaUEZtwqihP2A==",
+      "path": "syncfusion.xamarin.core/17.2.0.46",
+      "hashPath": "syncfusion.xamarin.core.17.2.0.46.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfAutoComplete/17.2.0.39": {
       "type": "package",
