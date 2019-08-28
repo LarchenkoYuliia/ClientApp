@@ -19,12 +19,14 @@ namespace App1
 
         private void NextButton_Clicked(object sender, EventArgs e)
         {
-
+            var _regRoomsPage = new RoomRegistration();
+            //Navigation.PopAsync();
+            Navigation.PushAsync(_regRoomsPage);
         }
 
         private void CancelButton_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PopAsync();
         }
     }
 }

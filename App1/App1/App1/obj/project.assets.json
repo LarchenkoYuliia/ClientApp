@@ -60,6 +60,24 @@
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.DataSource/17.2.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.GridCommon/17.2.0.46": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfAutoComplete/17.2.0.39": {
         "type": "package",
         "dependencies": {
@@ -84,6 +102,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfListView/17.2.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Syncfusion.Xamarin.DataSource": "17.2.0.46",
+          "Syncfusion.Xamarin.GridCommon": "17.2.0.46",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll": {}
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -338,6 +371,50 @@
         "syncfusion.xamarin.core.nuspec"
       ]
     },
+    "Syncfusion.Xamarin.DataSource/17.2.0.46": {
+      "sha512": "+Yz0xOH68Au5OwWLKSWxqiIAZTpBv9O/ReFFd5q/RifmqyhVr6mh/NHG2ra2YIh777aIMh15LMAMOCPfKUTj0A==",
+      "type": "package",
+      "path": "syncfusion.xamarin.datasource/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.DataSource.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.DataSource.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.DataSource.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.DataSource.Portable.dll",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.XML",
+        "lib/uap10.0/Syncfusion.DataSource.Portable.dll",
+        "syncfusion.xamarin.datasource.17.2.0.46.nupkg.sha512",
+        "syncfusion.xamarin.datasource.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.GridCommon/17.2.0.46": {
+      "sha512": "uyc0OSE/+ckZaVDhJFFmqIMLcovQO/8m5IMTvb0JVTpC3BR+MDvaFtvaUd+nZhNPDfhklLponT6oY7xVopAMMQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.gridcommon/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.XML",
+        "lib/MonoAndroid10/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.Mac/Syncfusion.GridCommon.Portable.dll",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.XML",
+        "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/netstandard2.0/Syncfusion.GridCommon.Portable.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.XML",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.dll",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
+        "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
+        "syncfusion.xamarin.gridcommon.17.2.0.46.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.nuspec"
+      ]
+    },
     "Syncfusion.Xamarin.SfAutoComplete/17.2.0.39": {
       "sha512": "x2zRjKtdnoqErCSoZDAdQOwMk1F78VI8RTo0RBPZ9eRSWbspplJpBrxdIXIjZbQWH4rTGKCxPgTFLphzL+wLFQ==",
       "type": "package",
@@ -392,6 +469,33 @@
         "lib/uap10.0/Syncfusion.SfChart.XForms.xml",
         "syncfusion.xamarin.sfchart.17.2.0.39.nupkg.sha512",
         "syncfusion.xamarin.sfchart.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfListView/17.2.0.46": {
+      "sha512": "+DHiFBtzwilpmaE/e6Iyrw+9AgQmU5Cvmq0gfL7HBJU8V2A+z4v8QdCErdMRVQVM3UTSlFT/LIWfPPzFPHQG6w==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sflistview/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfListView.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfListView.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfListView.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfListView.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfListView.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
+        "syncfusion.xamarin.sflistview.17.2.0.46.nupkg.sha512",
+        "syncfusion.xamarin.sflistview.nuspec"
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
@@ -548,6 +652,7 @@
       "Syncfusion.Xamarin.Core >= 17.2.0.46",
       "Syncfusion.Xamarin.SfAutoComplete >= 17.2.0.39",
       "Syncfusion.Xamarin.SfChart >= 17.2.0.39",
+      "Syncfusion.Xamarin.SfListView >= 17.2.0.46",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
@@ -613,6 +718,10 @@
           "Syncfusion.Xamarin.SfChart": {
             "target": "Package",
             "version": "[17.2.0.39, )"
+          },
+          "Syncfusion.Xamarin.SfListView": {
+            "target": "Package",
+            "version": "[17.2.0.46, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

@@ -29,7 +29,7 @@ namespace App1.ViewModel
                 if (_roomNames.RoomNameId != value)
                 {
                     _roomNames.RoomNameId = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("RoomNameId");
                 }
             }
         }
@@ -45,7 +45,7 @@ namespace App1.ViewModel
                 if (_roomNames.RoomName != value)
                 {
                     _roomNames.RoomName = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("RoomName");
                 }
             }
         }

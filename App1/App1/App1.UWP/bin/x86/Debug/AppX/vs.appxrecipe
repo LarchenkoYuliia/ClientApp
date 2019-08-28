@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-25T12:39:35.257</Modified>
+      <Modified>2019-08-28T12:16:47.366</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
       <PackagePath>entrypoint\App1.UWP.exe</PackagePath>
-      <Modified>2019-08-25T12:39:30.477</Modified>
+      <Modified>2019-08-28T12:16:44.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -726,6 +726,14 @@
       <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
       <Modified>2019-08-19T12:48:18.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.datasource\17.2.0.46\lib\uap10.0\Syncfusion.DataSource.Portable.dll">
+      <PackagePath>Syncfusion.DataSource.Portable.dll</PackagePath>
+      <Modified>2019-08-18T20:58:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.gridcommon\17.2.0.46\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
+      <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
+      <Modified>2019-08-18T20:58:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sfautocomplete\17.2.0.39\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfAutoComplete.XForms.UWP.dll</PackagePath>
       <Modified>2019-07-29T06:15:06.000</Modified>
@@ -741,6 +749,14 @@
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sfchart\17.2.0.39\lib\uap10.0\Syncfusion.SfChart.XForms.dll">
       <PackagePath>Syncfusion.SfChart.XForms.dll</PackagePath>
       <Modified>2019-07-29T06:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sflistview\17.2.0.46\lib\uap10.0\Syncfusion.SfListView.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfListView.XForms.UWP.dll</PackagePath>
+      <Modified>2019-08-18T21:31:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sflistview\17.2.0.46\lib\uap10.0\Syncfusion.SfListView.XForms.dll">
+      <PackagePath>Syncfusion.SfListView.XForms.dll</PackagePath>
+      <Modified>2019-08-18T21:31:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -760,7 +776,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2019-08-25T12:39:12.375</Modified>
+      <Modified>2019-08-28T12:16:28.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -907,11 +923,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-25T12:39:29.810</Modified>
+      <Modified>2019-08-28T12:16:43.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-08-25T12:39:29.811</Modified>
+      <Modified>2019-08-28T12:16:43.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -979,11 +995,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-08-25T10:16:39.375</Modified>
+      <Modified>2019-08-28T10:14:42.141</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\App1.UWP.exe">
       <PackagePath>App1.UWP.exe</PackagePath>
-      <Modified>2019-08-25T12:39:35.243</Modified>
+      <Modified>2019-08-28T12:16:47.354</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

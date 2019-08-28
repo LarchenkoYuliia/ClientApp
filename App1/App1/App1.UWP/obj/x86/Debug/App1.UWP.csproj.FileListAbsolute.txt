@@ -632,3 +632,7 @@ D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\FxResources.Sy
 D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\FxResources.System.Threading.SR.resw
 D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\FxResources.System.Transactions.Local.SR.resw
 D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\FxResources.System.ValueTuple.SR.resw
+D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Syncfusion.DataSource.Portable.dll
+D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Syncfusion.GridCommon.Portable.dll
+D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Syncfusion.SfListView.XForms.UWP.dll
+D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Syncfusion.SfListView.XForms.dll

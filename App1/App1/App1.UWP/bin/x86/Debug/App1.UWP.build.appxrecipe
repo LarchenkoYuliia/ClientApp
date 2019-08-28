@@ -544,6 +544,12 @@
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.dll">
       <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.datasource\17.2.0.46\lib\uap10.0\Syncfusion.DataSource.Portable.dll">
+      <PackagePath>Syncfusion.DataSource.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.gridcommon\17.2.0.46\lib\uap10.0\Syncfusion.GridCommon.Portable.dll">
+      <PackagePath>Syncfusion.GridCommon.Portable.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sfautocomplete\17.2.0.39\lib\uap10.0\Syncfusion.SfAutoComplete.XForms.UWP.dll">
       <PackagePath>Syncfusion.SfAutoComplete.XForms.UWP.dll</PackagePath>
     </AppxPackagedFile>
@@ -555,6 +561,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sfchart\17.2.0.39\lib\uap10.0\Syncfusion.SfChart.XForms.dll">
       <PackagePath>Syncfusion.SfChart.XForms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sflistview\17.2.0.46\lib\uap10.0\Syncfusion.SfListView.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfListView.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sflistview\17.2.0.46\lib\uap10.0\Syncfusion.SfListView.XForms.dll">
+      <PackagePath>Syncfusion.SfListView.XForms.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
