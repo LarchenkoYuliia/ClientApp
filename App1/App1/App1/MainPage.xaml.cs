@@ -38,7 +38,8 @@ namespace App1
             }
             _viewModel.Login =  LoginTextInput.Text.ToString();
             _viewModel.Password = PasswordTextInput.Text.ToString();
-            DisplayAlert("log", "log", "ok", "cancel");
+            var _mainControlPage = new MainControlPage();
+            Navigation.PushModalAsync(_mainControlPage);
         }
 
         private void AuthButton_Clicked(object sender, EventArgs e)

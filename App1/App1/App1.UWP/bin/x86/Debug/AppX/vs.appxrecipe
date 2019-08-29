@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-29T11:54:21.807</Modified>
+      <Modified>2019-08-29T14:40:56.112</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
       <PackagePath>entrypoint\App1.UWP.exe</PackagePath>
-      <Modified>2019-08-29T11:54:17.691</Modified>
+      <Modified>2019-08-29T14:40:51.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -718,6 +718,14 @@
       <PackagePath>Syncfusion.Buttons.XForms.dll</PackagePath>
       <Modified>2019-07-29T06:28:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.cards\17.2.0.46\lib\uap10.0\Syncfusion.Cards.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Cards.XForms.UWP.dll</PackagePath>
+      <Modified>2019-08-18T21:41:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.cards\17.2.0.46\lib\uap10.0\Syncfusion.Cards.XForms.dll">
+      <PackagePath>Syncfusion.Cards.XForms.dll</PackagePath>
+      <Modified>2019-08-18T21:41:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.core\17.2.0.46\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
       <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
       <Modified>2019-08-19T12:48:48.000</Modified>
@@ -776,7 +784,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2019-08-29T11:54:00.790</Modified>
+      <Modified>2019-08-29T14:40:32.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -923,11 +931,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-29T11:54:16.971</Modified>
+      <Modified>2019-08-29T14:40:50.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-08-29T11:54:16.973</Modified>
+      <Modified>2019-08-29T14:40:50.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -999,7 +1007,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\App1.UWP.exe">
       <PackagePath>App1.UWP.exe</PackagePath>
-      <Modified>2019-08-29T11:54:21.771</Modified>
+      <Modified>2019-08-29T14:40:56.094</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

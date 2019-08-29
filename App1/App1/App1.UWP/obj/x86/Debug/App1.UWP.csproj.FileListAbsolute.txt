@@ -636,3 +636,5 @@ D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\Syncfusion.But
 D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\Syncfusion.Core.XForms.UWP.pri.xml
 D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\shag\диплом\reposClient\App1\App1\App1.UWP\obj\x86\Debug\ProjectArchitectures.txt
+D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Syncfusion.Cards.XForms.UWP.dll
+D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Syncfusion.Cards.XForms.dll

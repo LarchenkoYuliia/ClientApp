@@ -26,6 +26,21 @@
           "lib/MonoAndroid10/Syncfusion.Buttons.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.Cards/17.2.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.Core/17.2.0.46": {
         "type": "package",
         "dependencies": {
@@ -451,6 +466,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Syncfusion.Xamarin.Buttons": "17.2.0.39",
+          "Syncfusion.Xamarin.Cards": "17.2.0.46",
           "Syncfusion.Xamarin.Core": "17.2.0.46",
           "Syncfusion.Xamarin.SfAutoComplete": "17.2.0.39",
           "Syncfusion.Xamarin.SfChart": "17.2.0.39",
@@ -523,6 +539,31 @@
         "lib/uap10.0/Syncfusion.Buttons.XForms.xml",
         "syncfusion.xamarin.buttons.17.2.0.39.nupkg.sha512",
         "syncfusion.xamarin.buttons.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Cards/17.2.0.46": {
+      "sha512": "CPh3//0pcvdsBaLdlLpUeZ6lNEOaZT7qPS7SeRVRwVa9qMu1Qi3zoSO8oSgQQnznwSjt5BHyy9IclBfn0zLjRA==",
+      "type": "package",
+      "path": "syncfusion.xamarin.cards/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Cards.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Cards.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Cards.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Cards.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Cards.XForms.xml",
+        "lib/uap10.0/Syncfusion.Cards.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Cards.XForms.UWP.xml",
+        "lib/uap10.0/Syncfusion.Cards.XForms.dll",
+        "lib/uap10.0/Syncfusion.Cards.XForms.xml",
+        "syncfusion.xamarin.cards.17.2.0.46.nupkg.sha512",
+        "syncfusion.xamarin.cards.nuspec"
       ]
     },
     "Syncfusion.Xamarin.Core/17.2.0.46": {

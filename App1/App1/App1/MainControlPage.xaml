@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="App1.MainControlPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <cards:SfCardLayout 
+                SwipeDirection="Left" 
+                HeightRequest="250">
+                <cards:SfCardView
+                    HeightRequest="200"
+                    BackgroundColor="#c6e2ff"
+                    IndicatorColor="#19a5a9" 
+                    IndicatorThickness="12" 
+                    IndicatorPosition="Left">
+                    <!--<ImageButton
+                        />-->
+                </cards:SfCardView>
+
+                <cards:SfCardView
+                    HeightRequest="200"
+                    BackgroundColor="#c6e2ff"
+                    IndicatorColor="#19a5a9" 
+                    IndicatorThickness="12" 
+                    IndicatorPosition="Left">
+                    <Label  Text="Yellow" BackgroundColor="Yellow"/>
+                </cards:SfCardView>
+
+                <cards:SfCardView
+                    HeightRequest="200"
+                    BackgroundColor="#c6e2ff"
+                    IndicatorColor="#19a5a9" 
+                    IndicatorThickness="12" 
+                    IndicatorPosition="Left">
+                    <Label  Text="Orange" BackgroundColor="Orange"/>
+                </cards:SfCardView>
+            </cards:SfCardLayout>
+            <Grid
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

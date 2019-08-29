@@ -19,12 +19,13 @@ namespace App1
 
         private void DoneButton_Clicked(object sender, EventArgs e)
         {
-
+            var _mainControlPage = new MainControlPage();
+            Navigation.PushModalAsync(_mainControlPage);
         }
 
         private void CancelButton_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PopAsync();
         }
     }
 }
