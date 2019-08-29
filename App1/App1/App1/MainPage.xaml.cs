@@ -20,6 +20,22 @@ namespace App1
 
         private void Login_Clicked(object sender, EventArgs e)
         {
+            if(string.IsNullOrEmpty(LoginTextInput.Text))
+            {
+                LoginTextLayout.HasError = true;
+            }
+            else
+            {
+                LoginTextLayout.HasError = false;
+            }
+            if (string.IsNullOrEmpty(PasswordTextInput.Text))
+            {
+                PasswordTextLayout.HasError = true;
+            }
+            else
+            {
+                PasswordTextLayout.HasError = false;
+            }
             _viewModel.Login =  LoginTextInput.Text.ToString();
             _viewModel.Password = PasswordTextInput.Text.ToString();
             DisplayAlert("log", "log", "ok", "cancel");
@@ -29,7 +45,6 @@ namespace App1
         {
             var _regPage = new RegistrationPage();
             Navigation.PushModalAsync(_regPage);
-            DisplayAlert("auth", "auth", "ok", "cancel");
         }
     }
 }

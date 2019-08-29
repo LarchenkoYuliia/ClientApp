@@ -17,16 +17,31 @@ namespace App1 {
     public partial class RegistrationPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout TextLayoutSurname;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry SurnameTextInput;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout TextLayoutName;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry NameTextInput;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout TextLayoutLogin;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry LoginRegTextInput;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout TextLayoutPassword;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry PasswordRegTextInput;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout TextLayoutRePassword;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry PasswordReTextInput;
@@ -40,10 +55,15 @@ namespace App1 {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RegistrationPage));
+            TextLayoutSurname = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout>(this, "TextLayoutSurname");
             SurnameTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "SurnameTextInput");
+            TextLayoutName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout>(this, "TextLayoutName");
             NameTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "NameTextInput");
+            TextLayoutLogin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout>(this, "TextLayoutLogin");
             LoginRegTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "LoginRegTextInput");
+            TextLayoutPassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout>(this, "TextLayoutPassword");
             PasswordRegTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "PasswordRegTextInput");
+            TextLayoutRePassword = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout>(this, "TextLayoutRePassword");
             PasswordReTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "PasswordReTextInput");
             nextButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.Buttons.SfButton>(this, "nextButton");
             cancelButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.Buttons.SfButton>(this, "cancelButton");

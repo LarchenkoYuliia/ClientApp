@@ -19,6 +19,7 @@
                 HorizontalOptions="CenterAndExpand"/>
                 
                 <inputLayout:SfTextInputLayout
+                    x:Name="TextLayoutSurname"
                 Hint="Фамилия"
                 HeightRequest="50"
                 BackgroundColor="Transparent"
@@ -27,7 +28,8 @@
                 ContainerType="Outlined"
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
-                UnfocusedColor="#75a2a3">
+                UnfocusedColor="#75a2a3"
+                ErrorColor="Red">
                     <Entry
                     x:Name="SurnameTextInput"
                     Text="{Binding UserSurname}">
@@ -35,6 +37,7 @@
                 </inputLayout:SfTextInputLayout>
                 
                 <inputLayout:SfTextInputLayout
+                    x:Name="TextLayoutName"
                 Hint="Имя"
                 HeightRequest="50"
                 BackgroundColor="Transparent"
@@ -43,7 +46,8 @@
                 ContainerType="Outlined"
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
-                UnfocusedColor="#75a2a3">
+                UnfocusedColor="#75a2a3"
+                    ErrorColor="Red">
                     <Entry
                     x:Name="NameTextInput"
                     Text="{Binding UserNmae}">
@@ -51,6 +55,7 @@
                 </inputLayout:SfTextInputLayout>
                 
                 <inputLayout:SfTextInputLayout
+                    x:Name="TextLayoutLogin"
                 Hint="Логин"
                 HeightRequest="50"
                 BackgroundColor="Transparent"
@@ -59,7 +64,8 @@
                 ContainerType="Outlined"
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
-                UnfocusedColor="#75a2a3">
+                UnfocusedColor="#75a2a3"
+                    ErrorColor="Red">
                     <Entry
                     x:Name="LoginRegTextInput"
                     Text="{Binding UserLogin}">
@@ -67,6 +73,7 @@
                 </inputLayout:SfTextInputLayout>
                 
                 <inputLayout:SfTextInputLayout
+                    x:Name="TextLayoutPassword"
                 Hint="Пароль"
                 HeightRequest="50"
                 BackgroundColor="Transparent"
@@ -75,13 +82,15 @@
                 ContainerType="Outlined"
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
-                UnfocusedColor="#75a2a3">
+                UnfocusedColor="#75a2a3"
+                    ErrorColor="Red">
                     <Entry
                     x:Name="PasswordRegTextInput"
                     Text="{Binding UserPassword}">
                     </Entry>
                 </inputLayout:SfTextInputLayout>
                 <inputLayout:SfTextInputLayout
+                x:Name="TextLayoutRePassword"
                 Hint="Повторить пароль"
                 HeightRequest="50"
                 BackgroundColor="Transparent"
@@ -90,7 +99,8 @@
                 ContainerType="Outlined"
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
-                UnfocusedColor="#75a2a3">
+                UnfocusedColor="#75a2a3"
+                    ErrorColor="Red">
                     <Entry
                     x:Name="PasswordReTextInput"
                     Text="{Binding UserPasswordRe}">
