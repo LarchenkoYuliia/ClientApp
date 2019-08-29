@@ -5,11 +5,10 @@
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              x:Class="App1.RegistrationPage">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout
-            HorizontalOptions="Fill"
+        <StackLayout
+            HorizontalOptions="CenterAndExpand"
             VerticalOptions="CenterAndExpand">
-                <Label 
+            <Label 
                 Text="Регистрация"
                 HeightRequest="50"
                 TextColor="#19a5a9"
@@ -17,8 +16,8 @@
                 FontSize="30"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"/>
-                
-                <inputLayout:SfTextInputLayout
+
+            <inputLayout:SfTextInputLayout
                     x:Name="TextLayoutSurname"
                 Hint="Фамилия"
                 HeightRequest="50"
@@ -30,13 +29,13 @@
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3"
                 ErrorColor="Red">
-                    <Entry
+                <Entry
                     x:Name="SurnameTextInput"
                     Text="{Binding UserSurname}">
-                    </Entry>
-                </inputLayout:SfTextInputLayout>
-                
-                <inputLayout:SfTextInputLayout
+                </Entry>
+            </inputLayout:SfTextInputLayout>
+
+            <inputLayout:SfTextInputLayout
                     x:Name="TextLayoutName"
                 Hint="Имя"
                 HeightRequest="50"
@@ -48,13 +47,13 @@
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3"
                     ErrorColor="Red">
-                    <Entry
+                <Entry
                     x:Name="NameTextInput"
                     Text="{Binding UserNmae}">
-                    </Entry>
-                </inputLayout:SfTextInputLayout>
-                
-                <inputLayout:SfTextInputLayout
+                </Entry>
+            </inputLayout:SfTextInputLayout>
+
+            <inputLayout:SfTextInputLayout
                     x:Name="TextLayoutLogin"
                 Hint="Логин"
                 HeightRequest="50"
@@ -66,13 +65,13 @@
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3"
                     ErrorColor="Red">
-                    <Entry
+                <Entry
                     x:Name="LoginRegTextInput"
                     Text="{Binding UserLogin}">
-                    </Entry>
-                </inputLayout:SfTextInputLayout>
-                
-                <inputLayout:SfTextInputLayout
+                </Entry>
+            </inputLayout:SfTextInputLayout>
+
+            <inputLayout:SfTextInputLayout
                     x:Name="TextLayoutPassword"
                 Hint="Пароль"
                 HeightRequest="50"
@@ -83,13 +82,14 @@
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3"
-                    ErrorColor="Red">
-                    <Entry
+                    ErrorColor="Red"
+                EnablePasswordVisibilityToggle="true">
+                <Entry
                     x:Name="PasswordRegTextInput"
                     Text="{Binding UserPassword}">
-                    </Entry>
-                </inputLayout:SfTextInputLayout>
-                <inputLayout:SfTextInputLayout
+                </Entry>
+            </inputLayout:SfTextInputLayout>
+            <inputLayout:SfTextInputLayout
                 x:Name="TextLayoutRePassword"
                 Hint="Повторить пароль"
                 HeightRequest="50"
@@ -100,14 +100,15 @@
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3"
-                    ErrorColor="Red">
-                    <Entry
+                    ErrorColor="Red"
+                EnablePasswordVisibilityToggle="true">
+                <Entry
                     x:Name="PasswordReTextInput"
                     Text="{Binding UserPasswordRe}">
-                    </Entry>
-                </inputLayout:SfTextInputLayout>
-                
-                <buttons:SfButton
+                </Entry>
+            </inputLayout:SfTextInputLayout>
+
+            <buttons:SfButton
                 x:Name="nextButton"
                 Text="Продолжить"
                 Clicked="NextButton_Clicked"
@@ -115,8 +116,8 @@
                 TextColor="White"
                 CornerRadius="8"
                 HeightRequest="50">
-                </buttons:SfButton>
-                <buttons:SfButton
+            </buttons:SfButton>
+            <buttons:SfButton
                 x:Name="cancelButton"
                 Text="Отмена"
                 Clicked="CancelButton_Clicked"
@@ -124,8 +125,7 @@
                 TextColor="White"
                 CornerRadius="8"
                 HeightRequest="50">
-                </buttons:SfButton>
-            </StackLayout>
+            </buttons:SfButton>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

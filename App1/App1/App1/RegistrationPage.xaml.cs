@@ -21,7 +21,7 @@ namespace App1
 
         private void NextButton_Clicked(object sender, EventArgs e)
         {
-            if(SurnameTextInput.Text == string.Empty)
+            if (SurnameTextInput.Text == string.Empty)
             {
                 TextLayoutSurname.HasError = true;
             }
@@ -30,7 +30,7 @@ namespace App1
                 TextLayoutSurname.HasError = false;
             }
 
-            if(NameTextInput.Text == string.Empty)
+            if (NameTextInput.Text == string.Empty)
             {
                 TextLayoutName.HasError = true;
             }
@@ -58,7 +58,7 @@ namespace App1
             }
             _userViewModel.UserPassword = PasswordRegTextInput.Text.ToString();
             _userViewModel.UserPasswordRe = PasswordReTextInput.Text.ToString();
-            if(!_userViewModel.UserPassword.Equals(_userViewModel.UserPasswordRe))
+            if (!_userViewModel.UserPassword.Equals(_userViewModel.UserPasswordRe))
             {
                 TextLayoutRePassword.HasError = true;
             }
@@ -66,9 +66,10 @@ namespace App1
             {
                 TextLayoutRePassword.HasError = false;
             }
+
             var _regRoomsPage = new RoomRegistration();
             //Navigation.PopAsync();
-            Navigation.PushAsync(_regRoomsPage);
+            Navigation.PushModalAsync(_regRoomsPage);
         }
 
         private void CancelButton_Clicked(object sender, EventArgs e)
