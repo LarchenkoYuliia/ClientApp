@@ -15,6 +15,7 @@ namespace App1
 		public MainControlPage ()
 		{
 			InitializeComponent ();
+            FirstButton.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
 		}
 	}
 }

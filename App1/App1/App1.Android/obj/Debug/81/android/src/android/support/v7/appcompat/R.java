@@ -4281,6 +4281,9 @@ containing a value of this type.
         public static int launcher_foreground=0x7f030002;
     }
     public static final class string {
+        public static int ApplicationName=0x7f0a003d;
+        public static int Hello=0x7f0a003c;
+        public static int Load_More=0x7f0a003e;
         public static int abc_action_bar_home_description=0x7f0a0015;
         public static int abc_action_bar_up_description=0x7f0a0016;
         public static int abc_action_menu_overflow_description=0x7f0a0017;
@@ -4313,7 +4316,7 @@ containing a value of this type.
         public static int appbar_scrolling_view_behavior=0x7f0a0033;
         public static int bottom_sheet_behavior=0x7f0a0034;
         public static int character_counter_pattern=0x7f0a0035;
-        public static int library_name=0x7f0a0048;
+        public static int library_name=0x7f0a004b;
         public static int mr_button_content_description=0x7f0a0000;
         public static int mr_cast_button_connected=0x7f0a0001;
         public static int mr_cast_button_connecting=0x7f0a0002;
@@ -4340,20 +4343,20 @@ containing a value of this type.
         public static int path_password_eye_mask_strike_through=0x7f0a0038;
         public static int path_password_eye_mask_visible=0x7f0a0039;
         public static int path_password_strike_through=0x7f0a003a;
-        public static int q=0x7f0a003d;
-        public static int quarter=0x7f0a003c;
+        public static int q=0x7f0a0040;
+        public static int quarter=0x7f0a003f;
         public static int search_menu_title=0x7f0a0026;
-        public static int sfchart_close_label=0x7f0a0043;
-        public static int sfchart_decrease_label=0x7f0a0046;
-        public static int sfchart_high_label=0x7f0a0040;
-        public static int sfchart_increase_label=0x7f0a0045;
-        public static int sfchart_low_label=0x7f0a0041;
-        public static int sfchart_open_label=0x7f0a0042;
-        public static int sfchart_others_label=0x7f0a0044;
-        public static int sfchart_total_label=0x7f0a0047;
+        public static int sfchart_close_label=0x7f0a0046;
+        public static int sfchart_decrease_label=0x7f0a0049;
+        public static int sfchart_high_label=0x7f0a0043;
+        public static int sfchart_increase_label=0x7f0a0048;
+        public static int sfchart_low_label=0x7f0a0044;
+        public static int sfchart_open_label=0x7f0a0045;
+        public static int sfchart_others_label=0x7f0a0047;
+        public static int sfchart_total_label=0x7f0a004a;
         public static int status_bar_notification_info_overflow=0x7f0a003b;
-        public static int w=0x7f0a003f;
-        public static int week=0x7f0a003e;
+        public static int w=0x7f0a0042;
+        public static int week=0x7f0a0041;
     }
     public static final class style {
         public static int AlertDialog_AppCompat=0x7f0c00a4;

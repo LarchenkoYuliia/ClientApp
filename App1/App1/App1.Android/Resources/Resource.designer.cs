@@ -255,6 +255,9 @@ namespace App1.Droid
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_total_label = global::App1.Droid.Resource.String.sfchart_total_label;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.w = global::App1.Droid.Resource.String.w;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.week = global::App1.Droid.Resource.String.week;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::App1.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::App1.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::App1.Droid.Resource.String.Load_More;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App1.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -4644,6 +4647,15 @@ namespace App1.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f0a003d
+			public const int ApplicationName = 2131361853;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int Hello = 2131361852;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int Load_More = 2131361854;
+			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;
 			
@@ -4740,8 +4752,8 @@ namespace App1.Droid
 			// aapt resource value: 0x7f0a0035
 			public const int character_counter_pattern = 2131361845;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int library_name = 2131361864;
+			// aapt resource value: 0x7f0a004b
+			public const int library_name = 2131361867;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;
@@ -4821,47 +4833,47 @@ namespace App1.Droid
 			// aapt resource value: 0x7f0a003a
 			public const int path_password_strike_through = 2131361850;
 			
-			// aapt resource value: 0x7f0a003d
-			public const int q = 2131361853;
+			// aapt resource value: 0x7f0a0040
+			public const int q = 2131361856;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int quarter = 2131361852;
+			// aapt resource value: 0x7f0a003f
+			public const int quarter = 2131361855;
 			
 			// aapt resource value: 0x7f0a0026
 			public const int search_menu_title = 2131361830;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int sfchart_close_label = 2131361859;
-			
 			// aapt resource value: 0x7f0a0046
-			public const int sfchart_decrease_label = 2131361862;
+			public const int sfchart_close_label = 2131361862;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int sfchart_high_label = 2131361856;
+			// aapt resource value: 0x7f0a0049
+			public const int sfchart_decrease_label = 2131361865;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int sfchart_increase_label = 2131361861;
+			// aapt resource value: 0x7f0a0043
+			public const int sfchart_high_label = 2131361859;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int sfchart_low_label = 2131361857;
-			
-			// aapt resource value: 0x7f0a0042
-			public const int sfchart_open_label = 2131361858;
+			// aapt resource value: 0x7f0a0048
+			public const int sfchart_increase_label = 2131361864;
 			
 			// aapt resource value: 0x7f0a0044
-			public const int sfchart_others_label = 2131361860;
+			public const int sfchart_low_label = 2131361860;
+			
+			// aapt resource value: 0x7f0a0045
+			public const int sfchart_open_label = 2131361861;
 			
 			// aapt resource value: 0x7f0a0047
-			public const int sfchart_total_label = 2131361863;
+			public const int sfchart_others_label = 2131361863;
+			
+			// aapt resource value: 0x7f0a004a
+			public const int sfchart_total_label = 2131361866;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int status_bar_notification_info_overflow = 2131361851;
 			
-			// aapt resource value: 0x7f0a003f
-			public const int w = 2131361855;
+			// aapt resource value: 0x7f0a0042
+			public const int w = 2131361858;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int week = 2131361854;
+			// aapt resource value: 0x7f0a0041
+			public const int week = 2131361857;
 			
 			static String()
 			{
