@@ -29,7 +29,7 @@ namespace App1
             FourthButton1.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
             FiveButton1.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
             SixhButton1.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
-            ImageBadroom1.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
+            ImageBadroom1.Source = ImageSource.FromResource("App1.Resources.kitchen.png");
 
             FirstButton2.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
             SecondButton2.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
@@ -37,8 +37,14 @@ namespace App1
             FourthButton2.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
             FiveButton2.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
             SixhButton2.ImageSource = ImageSource.FromResource("App1.Resources.nightstand.png");
-            ImageBadroom2.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
+            ImageBadroom2.Source = ImageSource.FromResource("App1.Resources.bathtub.png");
 
         }
-	}
+
+        private void FirstButton_Clicked(object sender, EventArgs e)
+        {
+            var _deviceTuner = new DeviceTuner();
+            Navigation.PushModalAsync(_deviceTuner);
+        }
+    }
 }

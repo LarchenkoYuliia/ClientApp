@@ -29,7 +29,8 @@
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3"
-                ErrorColor="Red">
+                ErrorColor="Red"
+                Margin="15,5,15,5">
                 <Entry
                     x:Name="LoginTextInput"
                     Text="{Binding UserLogin}">
@@ -47,7 +48,8 @@
                 OutlineCornerRadius="8"
                 FocusedColor="#19a5a9"
                 UnfocusedColor="#75a2a3"
-                ErrorColor="Red">
+                ErrorColor="Red"
+                Margin="15,5,15,5">
                 <Entry
                     x:Name="PasswordTextInput"
                     Text="{Binding UserPassword}">
@@ -60,7 +62,8 @@
                 BackgroundColor="#19a5a9"
                 TextColor="White"
                 CornerRadius="8"
-                HeightRequest="50"> 
+                HeightRequest="50"
+                Margin="15,5,15,5"> 
             </buttons:SfButton>
             <buttons:SfButton
                 x:Name="authButton"
@@ -69,7 +72,8 @@
                 BackgroundColor="#19a5a9"
                 TextColor="White"
                 CornerRadius="8"
-                HeightRequest="50">
+                HeightRequest="50"
+                Margin="15,0,15,5">
             </buttons:SfButton>
         </StackLayout>
     </ContentPage.Content>

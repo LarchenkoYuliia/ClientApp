@@ -85,7 +85,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="0"
@@ -100,7 +101,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="0"
                                 Grid.Row="1"
@@ -115,7 +117,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="1"
@@ -130,7 +133,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="0"
                                 Grid.Row="2"
@@ -145,7 +149,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="2"
@@ -160,7 +165,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                         </Grid>
                     </StackLayout>
                 </cards:SfCardView>
@@ -192,7 +198,7 @@
                             <Label
                                 Grid.Column="0"
                                 Grid.Row="0"
-                                Text="Спальня"
+                                Text="Кухня"
                                 FontSize="Large"
                                 TextColor="#19a5a9"/>
                             <Label
@@ -240,7 +246,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="0"
@@ -255,7 +262,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="0"
                                 Grid.Row="1"
@@ -270,7 +278,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="1"
@@ -285,7 +294,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="0"
                                 Grid.Row="2"
@@ -300,7 +310,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="2"
@@ -315,7 +326,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                         </Grid>
                     </StackLayout>
                 </cards:SfCardView>
@@ -347,7 +359,7 @@
                             <Label
                                 Grid.Column="0"
                                 Grid.Row="0"
-                                Text="Спальня"
+                                Text="Ванная"
                                 FontSize="Large"
                                 TextColor="#19a5a9"/>
                             <Label
@@ -395,7 +407,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="0"
@@ -410,7 +423,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="0"
                                 Grid.Row="1"
@@ -425,7 +439,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="1"
@@ -440,7 +455,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="0"
                                 Grid.Row="2"
@@ -455,7 +471,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                             <buttons:SfButton
                                 Grid.Column="1"
                                 Grid.Row="2"
@@ -470,7 +487,8 @@
                                 BackgroundColor="White"
                                 TextColor="#19a5a9"
                                 CornerRadius="8"
-                                ImageAlignment="End"/>
+                                ImageAlignment="End"
+                                Clicked="FirstButton_Clicked"/>
                         </Grid>
                     </StackLayout>
                 </cards:SfCardView>
