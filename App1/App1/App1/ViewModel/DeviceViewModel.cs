@@ -1,4 +1,5 @@
 ﻿using App1.Models;
+using App1.Repositories;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,7 +39,7 @@ namespace App1.ViewModel
                 if (_device.DeviceId != value)
                 {
                     _device.DeviceId = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("DeviceId");
                 }
             }
         }
@@ -54,7 +55,7 @@ namespace App1.ViewModel
                 if (_device.DeviceName != value)
                 {
                     _device.DeviceName = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("DeviceName");
                 }
             }
         }
@@ -70,7 +71,7 @@ namespace App1.ViewModel
                 if (_device.WarrantyExpirationDate != value)
                 {
                     _device.WarrantyExpirationDate = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("WarrantyExpirationDate");
                 }
             }
         }
@@ -86,7 +87,7 @@ namespace App1.ViewModel
                 if (_device.Model != value)
                 {
                     _device.Model = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("Model");
                 }
             }
         }

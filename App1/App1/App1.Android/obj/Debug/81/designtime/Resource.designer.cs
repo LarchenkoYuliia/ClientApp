@@ -255,6 +255,9 @@ namespace App1.Droid
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_total_label = global::App1.Droid.Resource.String.sfchart_total_label;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.w = global::App1.Droid.Resource.String.w;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.week = global::App1.Droid.Resource.String.week;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::App1.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::App1.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::App1.Droid.Resource.String.Load_More;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App1.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -4623,14 +4626,23 @@ namespace App1.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
+			// aapt resource value: 0x7F120016
+			public const int ApplicationName = 2131886102;
+			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
+			// aapt resource value: 0x7F120015
+			public const int Hello = 2131886101;
+			
 			// aapt resource value: 0x7F120002
 			public const int library_name = 2131886082;
+			
+			// aapt resource value: 0x7F120017
+			public const int Load_More = 2131886103;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
