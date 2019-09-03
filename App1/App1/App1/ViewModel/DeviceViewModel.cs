@@ -1,9 +1,6 @@
 ﻿using App1.Models;
-using App1.Repositories;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 
 namespace App1.ViewModel
 {

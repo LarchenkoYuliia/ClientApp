@@ -1,9 +1,5 @@
-﻿using App1.Models;
-using App1.ViewModel;
-using System;
-using System.Collections.Generic;
+﻿using App1.ViewModel;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace App1.Repositories
 {

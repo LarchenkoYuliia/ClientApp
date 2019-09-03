@@ -1,12 +1,9 @@
 ﻿using App1.Models;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 
 namespace App1.ViewModel
 {
-    //todo: properties "UserId"
     public class RoomViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
@@ -28,7 +25,7 @@ namespace App1.ViewModel
                 if (_room.RoomId != value)
                 {
                     _room.RoomId = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("RoomId");
                 }
             }
         }
@@ -60,7 +57,7 @@ namespace App1.ViewModel
                 if (_room.RoomNameId != value)
                 {
                     _room.RoomNameId = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("RoomNameId");
                 }
             }
         }
@@ -76,7 +73,7 @@ namespace App1.ViewModel
                 if (_room.DeviceId != value)
                 {
                     _room.DeviceId = value;
-                    OnPropertyChanged("UserId");
+                    OnPropertyChanged("DeviceId");
                 }
             }
         }

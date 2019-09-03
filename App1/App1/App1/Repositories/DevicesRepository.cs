@@ -1,15 +1,11 @@
 ﻿using App1.ViewModel;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace App1.Repositories
 {
     public class DevicesRepository
     {
-        
-
         public ObservableCollection<DeviceViewModel> DeviceList
         {
             get { return _deviceViewModel; }
