@@ -1,12 +1,5 @@
 ﻿using App1.Repositories;
-using App1.ViewModel;
-using Syncfusion.ListView.XForms;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -21,8 +14,12 @@ namespace App1
             ImageButtonAddDevice.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
             DevicesRepository viewModel = new DevicesRepository();
             DevicesListView.ItemsSource = viewModel.DeviceList;
-            
         }
 
+        private void ImageButtonAddDevice_Clicked(object sender, EventArgs e)
+        {
+            var _addDevicePage = new AddDevicePage();
+            Navigation.PushModalAsync(_addDevicePage);
+        }
     }
 }

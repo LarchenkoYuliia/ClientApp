@@ -1,10 +1,15 @@
-﻿using App1.Models;
+﻿using Android.Widget;
+using App1.Models;
+using App1.Repositories;
+using Syncfusion.ListView.XForms;
 using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Reflection;
+using Xamarin.Forms;
 
 namespace App1.ViewModel
 {
-    //todo: write property on OnPropertyChanged("UserId");
     public class DeviceViewModel : INotifyPropertyChanged
     {
         /// <summary>
@@ -15,14 +20,14 @@ namespace App1.ViewModel
         /// <summary>
         /// 
         /// </summary>
-        private Device _device;
+        private App1.Models.Device _device;
 
         /// <summary>
         /// 
         /// </summary>
         public DeviceViewModel()
         {
-            _device = new Device();
+            _device = new App1.Models.Device();
         }
 
         /// <summary>
@@ -88,6 +93,20 @@ namespace App1.ViewModel
                 }
             }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool IsVisible
+        {
+            get { return isVisible; }
+            set
+            {
+                isVisible = value;
+                OnPropertyChanged("IsVisible");
+            }
+        }
+        private bool isVisible = false;
 
         /// <summary>
         /// 

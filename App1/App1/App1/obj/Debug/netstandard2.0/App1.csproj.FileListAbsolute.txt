@@ -27,3 +27,8 @@ D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\MainControlPage.xaml.g.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\DeviceTuner.xaml.g.cs
+D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\Mono.Android.dll
+D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\Mono.Android.pdb
+D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\Mono.Android.xml
+D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CopyComplete
+D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\AddDevicePage.xaml.g.cs

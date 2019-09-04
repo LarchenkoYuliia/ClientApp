@@ -16,7 +16,8 @@
           "Syncfusion.Xamarin.SfAutoComplete": "17.2.0.39",
           "Syncfusion.Xamarin.SfChart": "17.2.0.39",
           "Syncfusion.Xamarin.SfListView": "17.2.0.46",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Mono.Android": "0.0.0.0"
         },
         "runtime": {
           "App1.dll": {}
@@ -140,6 +141,14 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Mono.Android/0.0.0.0": {
+        "runtime": {
+          "Mono.Android.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -232,6 +241,11 @@
       "sha512": "sha512-tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "path": "xamarin.forms/3.4.0.1008975",
       "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
+    },
+    "Mono.Android/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
