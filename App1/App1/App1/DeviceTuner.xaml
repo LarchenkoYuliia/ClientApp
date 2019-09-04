@@ -93,19 +93,23 @@
                                 <buttons:SfButton
                                     Grid.Row="0"
                                 Grid.Column="1"
+                                    x:Name="SettingsButton"
                                     Text="Настройка"
                                     BackgroundColor="#c5fac8"
                                     TextColor="DarkGray"
                                     CornerRadius="8"
-                                    BorderColor="#c5fac8"/>
+                                    BorderColor="#c5fac8"
+                                    Clicked="SettingsButton_Clicked"/>
                                 <buttons:SfButton
                                     Grid.Row="1"
                                 Grid.Column="1"
+                                    x:Name="InfoButton"
                                     TextColor="DarkGray"
                                     BackgroundColor="#c5fac8"
                                     BorderColor="#c5fac8"
                                     CornerRadius="8"
-                                    Text="Подробнее"/>
+                                    Text="Подробнее"
+                                    Clicked="InfoButton_Clicked"/>
                                 <!--</StackLayout>-->
                             </Grid>
                         </Frame>

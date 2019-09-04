@@ -32,3 +32,5 @@ D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\Mono.An
 D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\Mono.Android.xml
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CopyComplete
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\AddDevicePage.xaml.g.cs
+D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\SettingsDevisePage.xaml.g.cs
+D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\DeviceInfoPage.xaml.g.cs
