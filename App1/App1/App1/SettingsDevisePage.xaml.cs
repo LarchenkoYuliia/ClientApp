@@ -18,5 +18,10 @@ namespace App1
 			InitializeComponent ();
             ttt.Text = deviseViewModel.DeviceName;
 		}
-	}
+
+        private void BackButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
+    }
 }

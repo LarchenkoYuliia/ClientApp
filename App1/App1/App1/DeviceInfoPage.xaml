@@ -1,13 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              x:Class="App1.DeviceInfoPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label 
-                x:Name="ttt"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout
+            Margin="15,20,15,0"
+            Padding="0">
+            <Label
+                x:Name="DeviceInfoName"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand" 
+                FontAttributes="Bold"
+                TextColor="#19a5a9"
+                FontSize="25"/>
+            <Label
+                x:Name="DeviceInfoModel"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" 
+                TextColor="DarkGray"
+                FontSize="15"/>
+            <Label
+                x:Name="DeviceInfoWarrantyExpirationDate"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" 
+                TextColor="DarkGray"
+                FontSize="20"/>
+            <buttons:SfButton
+                x:Name="BackButton"
+                HeightRequest="50"
+                Margin="0,5,0,5"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="StartAndExpand"
+                Text="Назад"
+                BackgroundColor="#ff9e9e"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="15"
+                CornerRadius="8"
+                Clicked="BackButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

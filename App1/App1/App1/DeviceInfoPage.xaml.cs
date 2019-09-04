@@ -16,7 +16,16 @@ namespace App1
 		public DeviceInfoPage (DeviceViewModel deviseViewModel)
 		{
 			InitializeComponent ();
-            ttt.Text = deviseViewModel.DeviceName;
+            DeviceInfoName.Text = deviseViewModel.DeviceName;
+            DeviceInfoModel.Text = deviseViewModel.Model;
+            DeviceInfoWarrantyExpirationDate.Text = string.Format("Дата истечения гарантийного срока {0}",
+                deviseViewModel.WarrantyExpirationDate.ToShortDateString());
+            //todo: добавить возможность корректировки даты истечения срока годности
 		}
-	}
+
+        private void BackButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
+    }
 }

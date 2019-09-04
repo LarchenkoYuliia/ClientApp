@@ -26,7 +26,7 @@ namespace App1.Repositories
                 DeviceId = 1,
                 DeviceName = "Lamp",
                 Model = "Model 1",
-                WarrantyExpirationDate = DateTime.MinValue
+                WarrantyExpirationDate = DateTime.Now.Date.AddDays(1)
             });
             DeviceList.Add(new DeviceViewModel()
             {
