@@ -33,7 +33,7 @@
                     BorderColor="Transparent"
                     Clicked="ImageButtonAddDevice_Clicked"/>
             </Grid>
-            <sfListView:SfListView
+            <!--<sfListView:SfListView
                 x:Name="DevicesListView"
                 ItemSize="75"
                 ItemSpacing="5,0,0,0">
@@ -49,25 +49,6 @@
                             Padding="15,5,5,5"
                             HorizontalOptions="FillAndExpand"
                             VerticalOptions="FillAndExpand">
-                            <!--<Grid Padding="10">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
-                                <Label 
-                                Grid.Row="0"
-                                Grid.Column="0"
-                                Text="{Binding DeviceName}"
-                                FontAttributes="Bold"
-                                TextColor="#19a5a9"/>
-                                <Label
-                                Grid.Row="1"
-                                Grid.Column="0"
-                                Text="{Binding Model}"
-                                TextColor="Gray"
-                                FontSize="15"/>
-                            </Grid>
-                            <StackLayout>-->
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*" />
@@ -110,12 +91,136 @@
                                     CornerRadius="8"
                                     Text="Подробнее"
                                     Clicked="InfoButton_Clicked"/>
-                                <!--</StackLayout>-->
                             </Grid>
                         </Frame>
                     </DataTemplate>
                 </sfListView:SfListView.ItemTemplate>
+            </sfListView:SfListView>-->
+            <sfListView:SfListView
+                x:Name="DeviceListView"
+                AllowSwiping="True" 
+                SelectionMode="None"
+                SwipeOffset="120"
+                SwipeThreshold="30"
+                ItemSize="100"
+                ItemSpacing="5,0,0,0">
+                <sfListView:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame 
+                            x:Name="frame"
+                            CornerRadius="8"
+                            BorderColor="Gray"
+                            BackgroundColor="Transparent"
+                            HasShadow="True"
+                            Margin="2"
+                            Padding="15,5,5,5"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label 
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Text="{Binding DeviceName}"
+                                FontAttributes="Bold"
+                                TextColor="#19a5a9"
+                                    FontSize="20"/>
+                                <Label
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Text="{Binding Model}"
+                                TextColor="Gray"
+                                FontSize="15"/>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </sfListView:SfListView.ItemTemplate>
+                <sfListView:SfListView.RightSwipeTemplate>
+                    <DataTemplate x:Name="RightSwipeTemplate">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid BackgroundColor="#9cd4ff"
+                                  HorizontalOptions="Fill"
+                                  VerticalOptions="Fill" 
+                                  Grid.Column="0">
+                                <Grid
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center">
+                                    <Image
+                                        Grid.Column="0"
+                                        Grid.Row="0"
+                                        x:Name="InfoImg"
+                                        BackgroundColor="Transparent"
+                                        HeightRequest="35"
+                                        WidthRequest="35"
+                                        BindingContextChanged="InfoImg_BindingContextChanged"
+                                        Source="InfoImg.png" />
+                                </Grid>
+                            </Grid>
+                            <Grid BackgroundColor="#9cd4ff"
+                                  HorizontalOptions="Fill"
+                                  VerticalOptions="Fill" 
+                                  Grid.Column="1">
+                                <Grid
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center">
+                                    <Image
+                                        Grid.Column="0"
+                                        Grid.Row="0"
+                                        x:Name="SettingsImg"
+                                        BackgroundColor="Transparent"
+                                        HeightRequest="35"
+                                        WidthRequest="35"
+                                        BindingContextChanged="SettingsImg_BindingContextChanged"
+                                        Source="SettingsImg.png" />
+                                </Grid>
+                            </Grid>
+                            <Grid 
+                                BackgroundColor="#ff9e9e"
+                                HorizontalOptions="Fill"
+                                VerticalOptions="Fill"
+                                Grid.Column="2">
+                                <Grid 
+                                    VerticalOptions="Center" 
+                                    HorizontalOptions="Center">
+                                    <Image
+                                        Grid.Column="0"
+                                        Grid.Row="0"
+                                        x:Name="DeleteImg"
+                                        HeightRequest="35"
+                                        WidthRequest="35"
+                                        BackgroundColor="Transparent"
+                                        BindingContextChanged="DeleteImg_BindingContextChanged"
+                                        Source="Delete.png" />
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </sfListView:SfListView.RightSwipeTemplate>
             </sfListView:SfListView>
+            <buttons:SfButton
+                x:Name="BackButton"
+                HeightRequest="50"
+                Margin="5,5,5,5"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="StartAndExpand"
+                Text="Назад"
+                BackgroundColor="#ff9e9e"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="15"
+                CornerRadius="8"
+                Clicked="BackButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

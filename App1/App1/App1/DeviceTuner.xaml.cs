@@ -15,7 +15,7 @@ namespace App1
 			InitializeComponent ();
             ImageButtonAddDevice.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
             DevicesRepository viewModel = new DevicesRepository();
-            DevicesListView.ItemsSource = viewModel.DeviceList;
+            DeviceListView.ItemsSource = viewModel.DeviceList;
         }
 
         private void ImageButtonAddDevice_Clicked(object sender, EventArgs e)
@@ -54,6 +54,26 @@ namespace App1
             var deviceViewModel = button.BindingContext;
             var _deviceInfoPage = new DeviceInfoPage(deviceViewModel as DeviceViewModel);
             Navigation.PushModalAsync(_deviceInfoPage);
+        }
+
+        private void InfoImg_BindingContextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SettingsImg_BindingContextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DeleteImg_BindingContextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BackButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
         }
     }
 }

@@ -25,14 +25,12 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="100"/>
                 </Grid.ColumnDefinitions>
                 <syncfusion:SfCheckBox 
                 Grid.Row="0"
-                Grid.Column="1"
+                Grid.Column="0"
                 x:Name="cbRoom1" 
                 IsChecked="False"
                 CheckedColor="#19a5a9"
@@ -40,10 +38,11 @@
                 CornerRadius="4"
                 UncheckedColor="#468499"
                 TextColor="#36393e"
-                    HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Margin="20,10,20,10"/>
                 <syncfusion:SfCheckBox 
                 Grid.Row="1"
-                Grid.Column="1"
+                Grid.Column="0"
                 x:Name="cbRoom2" 
                 IsChecked="False"
                 CheckedColor="#19a5a9"
@@ -51,10 +50,11 @@
                 CornerRadius="4"
                 UncheckedColor="#468499"
                 TextColor="#36393e"
-                    HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Margin="20,10,20,10"/>
                 <syncfusion:SfCheckBox 
                 Grid.Row="2"
-                Grid.Column="1"
+                Grid.Column="0"
                 x:Name="cbRoom3" 
                 IsChecked="False"
                 CheckedColor="#19a5a9"
@@ -62,10 +62,11 @@
                 CornerRadius="4"
                 UncheckedColor="#468499"
                 TextColor="#36393e"
-                    HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Margin="20,10,20,10"/>
                 <syncfusion:SfCheckBox 
                 Grid.Row="0"
-                Grid.Column="2"
+                Grid.Column="1"
                 x:Name="cbRoom4" 
                 IsChecked="False"
                 CheckedColor="#19a5a9"
@@ -73,10 +74,11 @@
                 CornerRadius="4"
                 UncheckedColor="#468499"
                 TextColor="#36393e"
-                    HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Margin="20,10,20,10"/>
                 <syncfusion:SfCheckBox 
                 Grid.Row="1"
-                Grid.Column="2"
+                Grid.Column="1"
                 x:Name="cbRoom5" 
                 IsChecked="False"
                 CheckedColor="#19a5a9"
@@ -84,10 +86,11 @@
                 UncheckedColor="#468499"
                 CornerRadius="5"
                 TextColor="#36393e"
-                    HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Margin="20,10,20,10"/>
                 <syncfusion:SfCheckBox 
                 Grid.Row="2"
-                Grid.Column="2"
+                Grid.Column="1"
                 x:Name="cbRoom6" 
                 IsChecked="False"
                 CheckedColor="#19a5a9"
@@ -95,31 +98,31 @@
                 UncheckedColor="#468499"
                 CornerRadius="5"
                 TextColor="#36393e"
-                    HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Margin="20,10,20,10"/>
                 <syncfusion:SfButton
                 Grid.Row="3"
-                Grid.Column="1"
+                Grid.Column="0"
                 x:Name="doneButton"
                 Text="Готово"
                 Clicked="DoneButton_Clicked"
                 BackgroundColor="#19a5a9"
                 TextColor="White"
                 CornerRadius="8"
-                HeightRequest="50"/>
+                HeightRequest="50"
+                Margin="20,10,20,10"/>
                 <syncfusion:SfButton
                 Grid.Row="3"
-                Grid.Column="2"
+                Grid.Column="1"
                 x:Name="cancelButton"
                 Text="Отмена"
                 Clicked="CancelButton_Clicked"
                 BackgroundColor="#19a5a9"
                 TextColor="White"
                 CornerRadius="8"
-                HeightRequest="50"/>
+                HeightRequest="50"
+                Margin="20,10,20,10"/>
             </Grid>
-
-
-
             <!--<syncfusion:SfListView
                 x:Name="RoomListView"
                 ItemsSource="{Binding RoomNames}">
@@ -145,7 +148,6 @@
             </DataTemplate>
         </syncfusion:SfListView.ItemTemplate>
     </syncfusion:SfListView>-->
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

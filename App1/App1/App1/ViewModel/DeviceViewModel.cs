@@ -6,6 +6,7 @@ using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Reflection;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace App1.ViewModel
@@ -29,6 +30,8 @@ namespace App1.ViewModel
         {
             _device = new App1.Models.Device();
         }
+
+        public ICommand OpenInfoPage { get; }
 
         /// <summary>
         /// Уникальный номер усройства
