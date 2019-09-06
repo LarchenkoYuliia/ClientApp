@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App1.DeviceTuner.xaml", "DeviceTuner.xaml", typeof(global::App1.DeviceTuner))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App1.DeviceTunerPage.xaml", "DeviceTunerPage.xaml", typeof(global::App1.DeviceTuner))]
 
 namespace App1 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("DeviceTuner.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("DeviceTunerPage.xaml")]
     public partial class DeviceTuner : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -20,7 +20,6 @@ D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\Mono.An
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\AddDevicePage.xaml.g.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\DeviceInfoPage.xaml.g.cs
-D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\DeviceTuner.xaml.g.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\MainControlPage.xaml.g.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
@@ -34,3 +33,4 @@ D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.cs
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojAssemblyReference.cache
+D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\DeviceTunerPage.xaml.g.cs

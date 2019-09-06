@@ -1,6 +1,5 @@
 ﻿using App1.Repositories;
 using App1.ViewModel;
-using Syncfusion.XForms.Buttons;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -15,6 +14,8 @@ namespace App1
         Image deleteImage;
         int itemIndex = -1;
 
+        public DeviceViewModel DeviceViewModel { get; set; }
+
         public DeviceTuner ()
 		{
 			InitializeComponent ();
@@ -23,26 +24,24 @@ namespace App1
             DeviceListView.ItemsSource = viewModel.DeviceList;
         }
 
+        private void openInfoDevicePage(DeviceViewModel deviceViewModel)
+        {
+            var _deviceInfoPagee = new DeviceInfoPage(deviceViewModel);
+            Navigation.PushModalAsync(_deviceInfoPagee);
+            this.DeviceListView.ResetSwipe();
+        }
+
+        private void deleteDevice(int deviceId)
+        {
+            //todo: добавить удаление устройства (удаление в БД)
+            this.DeviceListView.ResetSwipe();
+            DisplayAlert("Wait", "Удаление в разработке", "Cancel");
+        }
+
         private void ImageButtonAddDevice_Clicked(object sender, EventArgs e)
         {
             var _addDevicePage = new AddDevicePage();
             Navigation.PushModalAsync(_addDevicePage);
-        }
-        
-        private void InfoButton_Clicked(object sender, EventArgs e)
-        {
-            if (sender == null)
-            {
-                return;
-            }
-            var button = sender as SfButton;
-            if (button == null)
-            {
-                return;
-            }
-            var deviceViewModel = button.BindingContext;
-            var _deviceInfoPage = new DeviceInfoPage(deviceViewModel as DeviceViewModel);
-            Navigation.PushModalAsync(_deviceInfoPage);
         }
 
         private void InfoImg_BindingContextChanged(object sender, EventArgs e)
@@ -50,7 +49,16 @@ namespace App1
             if (infoImage == null)
             {
                 infoImage = sender as Image;
-                //(infoImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(SetFavorites) });
+                (infoImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(async() =>
+                    {
+                        if(infoImage != null && infoImage.BindingContext != null)
+                        {
+                            DeviceViewModel = infoImage.BindingContext as DeviceViewModel;
+                            openInfoDevicePage(DeviceViewModel);
+                        }
+                    })
+                });
+
                 infoImage.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
             }
         }
@@ -60,7 +68,16 @@ namespace App1
             if (deleteImage == null)
             {
                 deleteImage = sender as Image;
-                //(deleteImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(SetFavorites) });
+                (deleteImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(async () => 
+                     {
+                         if(deleteImage != null && deleteImage.BindingContext != null)
+                         {
+                             DeviceViewModel = deleteImage.BindingContext as DeviceViewModel;
+                             deleteDevice(DeviceViewModel.DeviceId);
+                         }
+                     })
+                });
+
                 deleteImage.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
             }
         }
@@ -76,6 +93,7 @@ namespace App1
             {
                 return;
             }
+
             var selectedDevice = e.ItemData as DeviceViewModel;
             var _settingsDevisePage = new SettingsDevisePage(selectedDevice);
             Navigation.PushModalAsync(_settingsDevisePage);

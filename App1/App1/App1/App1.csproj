@@ -34,13 +34,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="DeviceTunerPage.xaml.cs">
+      <DependentUpon>DeviceTunerPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="AddDevicePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="DeviceInfoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="DeviceTuner.xaml">
+    <EmbeddedResource Update="DeviceTunerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MainControlPage.xaml">
