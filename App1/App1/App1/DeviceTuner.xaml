@@ -157,6 +157,7 @@
                                     VerticalOptions="Center"
                                     HorizontalOptions="Center">
                                     <Image
+                                        Margin="2,2,2,2"
                                         Grid.Column="0"
                                         Grid.Row="0"
                                         x:Name="InfoImg"
@@ -178,6 +179,7 @@
                                         Grid.Column="0"
                                         Grid.Row="0"
                                         x:Name="SettingsImg"
+                                        Margin="2,2,2,2"
                                         BackgroundColor="Transparent"
                                         HeightRequest="35"
                                         WidthRequest="35"
@@ -197,6 +199,7 @@
                                         Grid.Column="0"
                                         Grid.Row="0"
                                         x:Name="DeleteImg"
+                                        Margin="2,2,2,2"
                                         HeightRequest="35"
                                         WidthRequest="35"
                                         BackgroundColor="Transparent"

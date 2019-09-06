@@ -41,6 +41,7 @@
                 HeightRequest="50"
                 VerticalOptions="EndAndExpand"
                 HorizontalOptions="FillAndExpand"
+                Margin="15,5,15,5"
                 Text="Отмена"
                 BackgroundColor="#ff9e9e"
                 TextColor="White"

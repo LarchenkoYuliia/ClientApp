@@ -10,6 +10,11 @@ namespace App1
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DeviceTuner : ContentPage
 	{
+        Image infoImage;
+        Image settingsImage;
+        Image deleteImage;
+        int itemIndex = -1;
+
         public DeviceTuner ()
 		{
 			InitializeComponent ();
@@ -58,17 +63,32 @@ namespace App1
 
         private void InfoImg_BindingContextChanged(object sender, EventArgs e)
         {
-
+            if (infoImage == null)
+            {
+                infoImage = sender as Image;
+                //(infoImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(SetFavorites) });
+                infoImage.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
+            }
         }
 
         private void SettingsImg_BindingContextChanged(object sender, EventArgs e)
         {
-
+            if (settingsImage == null)
+            {
+                settingsImage = sender as Image;
+                //(settingsImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(SetFavorites) });
+                settingsImage.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
+            }
         }
 
         private void DeleteImg_BindingContextChanged(object sender, EventArgs e)
         {
-
+            if (deleteImage == null)
+            {
+                deleteImage = sender as Image;
+                //(deleteImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(SetFavorites) });
+                deleteImage.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
+            }
         }
 
         private void BackButton_Clicked(object sender, EventArgs e)

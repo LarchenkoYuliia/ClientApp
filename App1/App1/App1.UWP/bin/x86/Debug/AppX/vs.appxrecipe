@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-05T21:00:04.939</Modified>
+      <Modified>2019-09-06T17:41:56.057</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App1.UWP.exe">
       <PackagePath>entrypoint\App1.UWP.exe</PackagePath>
-      <Modified>2019-09-05T21:00:01.384</Modified>
+      <Modified>2019-09-06T17:41:52.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -784,7 +784,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2019-09-05T20:59:45.107</Modified>
+      <Modified>2019-09-06T17:41:33.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -931,11 +931,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-09-05T21:00:00.636</Modified>
+      <Modified>2019-09-06T17:41:51.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-09-05T21:00:00.637</Modified>
+      <Modified>2019-09-06T17:41:51.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1007,7 +1007,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\shag\диплом\reposClient\App1\App1\App1.UWP\bin\x86\Debug\Core\App1.UWP.exe">
       <PackagePath>App1.UWP.exe</PackagePath>
-      <Modified>2019-09-05T21:00:04.925</Modified>
+      <Modified>2019-09-06T17:41:56.043</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
