@@ -103,7 +103,8 @@
                 SwipeOffset="120"
                 SwipeThreshold="30"
                 ItemSize="100"
-                ItemSpacing="5,0,0,0">
+                ItemSpacing="5,0,0,0"
+                ItemTapped="DeviceListView_ItemTapped">
                 <sfListView:SfListView.ItemTemplate>
                     <DataTemplate>
                         <Frame 
@@ -147,7 +148,6 @@
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Grid BackgroundColor="#9cd4ff"
                                   HorizontalOptions="Fill"
@@ -168,30 +168,11 @@
                                         Source="InfoImg.png" />
                                 </Grid>
                             </Grid>
-                            <Grid BackgroundColor="#9cd4ff"
-                                  HorizontalOptions="Fill"
-                                  VerticalOptions="Fill" 
-                                  Grid.Column="1">
-                                <Grid
-                                    VerticalOptions="Center"
-                                    HorizontalOptions="Center">
-                                    <Image
-                                        Grid.Column="0"
-                                        Grid.Row="0"
-                                        x:Name="SettingsImg"
-                                        Margin="2,2,2,2"
-                                        BackgroundColor="Transparent"
-                                        HeightRequest="35"
-                                        WidthRequest="35"
-                                        BindingContextChanged="SettingsImg_BindingContextChanged"
-                                        Source="SettingsImg.png" />
-                                </Grid>
-                            </Grid>
                             <Grid 
                                 BackgroundColor="#ff9e9e"
                                 HorizontalOptions="Fill"
                                 VerticalOptions="Fill"
-                                Grid.Column="2">
+                                Grid.Column="1">
                                 <Grid 
                                     VerticalOptions="Center" 
                                     HorizontalOptions="Center">

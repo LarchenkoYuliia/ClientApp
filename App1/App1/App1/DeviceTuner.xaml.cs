@@ -28,23 +28,7 @@ namespace App1
             var _addDevicePage = new AddDevicePage();
             Navigation.PushModalAsync(_addDevicePage);
         }
-
-        private void SettingsButton_Clicked(object sender, EventArgs e)
-        {
-            if(sender == null)
-            {
-                return;
-            }
-            var button = sender as SfButton;
-            if(button == null)
-            {
-                return;
-            }
-            var deviceViewModel = button.BindingContext;
-            var _settingsDevisePage = new SettingsDevisePage(deviceViewModel as DeviceViewModel);
-            Navigation.PushModalAsync(_settingsDevisePage);
-        }
-
+        
         private void InfoButton_Clicked(object sender, EventArgs e)
         {
             if (sender == null)
@@ -71,16 +55,6 @@ namespace App1
             }
         }
 
-        private void SettingsImg_BindingContextChanged(object sender, EventArgs e)
-        {
-            if (settingsImage == null)
-            {
-                settingsImage = sender as Image;
-                //(settingsImage.Parent as View).GestureRecognizers.Add(new TapGestureRecognizer() { Command = new Command(SetFavorites) });
-                settingsImage.Source = ImageSource.FromResource("App1.Resources.nightstand.png");
-            }
-        }
-
         private void DeleteImg_BindingContextChanged(object sender, EventArgs e)
         {
             if (deleteImage == null)
@@ -94,6 +68,17 @@ namespace App1
         private void BackButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PopModalAsync();
+        }
+
+        private void DeviceListView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
+        {
+            if (e == null)
+            {
+                return;
+            }
+            var selectedDevice = e.ItemData as DeviceViewModel;
+            var _settingsDevisePage = new SettingsDevisePage(selectedDevice);
+            Navigation.PushModalAsync(_settingsDevisePage);
         }
     }
 }
