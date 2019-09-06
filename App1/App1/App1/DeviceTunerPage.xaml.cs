@@ -31,11 +31,16 @@ namespace App1
             this.DeviceListView.ResetSwipe();
         }
 
-        private void deleteDevice(int deviceId)
+        private async void  deleteDevice(DeviceViewModel deviceViewModel)
         {
-            //todo: добавить удаление устройства (удаление в БД)
             this.DeviceListView.ResetSwipe();
-            DisplayAlert("Wait", "Удаление в разработке", "Cancel");
+            
+            var answer = await DisplayAlert("Удалить устройство?", string.Format("Удаление {0} из списка устройств", deviceViewModel.DeviceName), "Yes", "No");
+            if (answer)
+            {
+                //todo: добавить удаление устройства (удаление в БД)
+                await DisplayAlert("Wait", "Удаление в разработке", "Cancel");
+            }
         }
 
         private void ImageButtonAddDevice_Clicked(object sender, EventArgs e)
@@ -73,7 +78,7 @@ namespace App1
                          if(deleteImage != null && deleteImage.BindingContext != null)
                          {
                              DeviceViewModel = deleteImage.BindingContext as DeviceViewModel;
-                             deleteDevice(DeviceViewModel.DeviceId);
+                             deleteDevice(DeviceViewModel);
                          }
                      })
                 });

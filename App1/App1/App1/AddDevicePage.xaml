@@ -9,7 +9,8 @@
             <sfListView:SfListView
                 x:Name="DevicesListView"
                 ItemSize="70"
-                ItemSpacing="5,0,0,0">
+                ItemSpacing="5,0,0,0"
+                ItemTapped="DevicesListView_ItemTapped">
                 <sfListView:SfListView.ItemTemplate>
                     <DataTemplate>
                         <Frame 
