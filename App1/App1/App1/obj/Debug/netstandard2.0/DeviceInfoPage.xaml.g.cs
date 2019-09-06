@@ -23,7 +23,13 @@ namespace App1 {
         private global::Xamarin.Forms.Label DeviceInfoModel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label DeviceInfoWarrantyExpirationDate;
+        private global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout DateTextInputLayout;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.XForms.MaskedEdit.SfMaskedEdit DateTextInput;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Syncfusion.XForms.Buttons.SfButton SaveButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Syncfusion.XForms.Buttons.SfButton BackButton;
@@ -33,7 +39,9 @@ namespace App1 {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DeviceInfoPage));
             DeviceInfoName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "DeviceInfoName");
             DeviceInfoModel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "DeviceInfoModel");
-            DeviceInfoWarrantyExpirationDate = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "DeviceInfoWarrantyExpirationDate");
+            DateTextInputLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.TextInputLayout.SfTextInputLayout>(this, "DateTextInputLayout");
+            DateTextInput = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.MaskedEdit.SfMaskedEdit>(this, "DateTextInput");
+            SaveButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.Buttons.SfButton>(this, "SaveButton");
             BackButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.XForms.Buttons.SfButton>(this, "BackButton");
         }
     }

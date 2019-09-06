@@ -100,16 +100,16 @@ namespace App1.ViewModel
         /// <summary>
         /// 
         /// </summary>
-        public bool IsVisible
+        public bool IsChange
         {
-            get { return isVisible; }
+            get { return isChange; }
             set
             {
-                isVisible = value;
-                OnPropertyChanged("IsVisible");
+                isChange = value;
+                OnPropertyChanged("IsChange");
             }
         }
-        private bool isVisible = false;
+        private bool isChange = false;
 
         /// <summary>
         /// 

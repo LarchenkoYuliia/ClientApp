@@ -28,9 +28,9 @@ D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\Setting
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
-D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CopyComplete
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\App1.csprojAssemblyReference.cache
 D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\DeviceTunerPage.xaml.g.cs
+D:\shag\диплом\reposClient\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp

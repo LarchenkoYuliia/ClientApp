@@ -574,6 +574,12 @@
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sflistview\17.2.0.46\lib\uap10.0\Syncfusion.SfListView.XForms.dll">
       <PackagePath>Syncfusion.SfListView.XForms.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sfmaskededit\17.2.0.46\lib\uap10.0\Syncfusion.SfMaskedEdit.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfMaskedEdit.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\syncfusion.xamarin.sfmaskededit\17.2.0.46\lib\uap10.0\Syncfusion.SfMaskedEdit.XForms.dll">
+      <PackagePath>Syncfusion.SfMaskedEdit.XForms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yuliia\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>

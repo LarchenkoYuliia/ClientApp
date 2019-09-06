@@ -45,3 +45,5 @@ System.Resources.ResourceManager
 System.Reflection.Extensions
 System.Linq.Queryable
 System.ComponentModel
+Syncfusion.SfMaskedEdit.XForms.Android
+Syncfusion.SfMaskedEdit.XForms

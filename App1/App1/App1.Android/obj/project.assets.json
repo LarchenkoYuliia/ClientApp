@@ -122,6 +122,21 @@
           "lib/MonoAndroid10/Syncfusion.SfListView.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfMaskedEdit/17.2.0.46": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.46",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Syncfusion.SfMaskedEdit.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfMaskedEdit.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Syncfusion.SfMaskedEdit.XForms.Android.dll": {},
+          "lib/MonoAndroid10/Syncfusion.SfMaskedEdit.XForms.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -471,6 +486,7 @@
           "Syncfusion.Xamarin.SfAutoComplete": "17.2.0.39",
           "Syncfusion.Xamarin.SfChart": "17.2.0.39",
           "Syncfusion.Xamarin.SfListView": "17.2.0.46",
+          "Syncfusion.Xamarin.SfMaskedEdit": "17.2.0.46",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -722,6 +738,31 @@
         "lib/uap10.0/Syncfusion.SfListView.XForms.xml",
         "syncfusion.xamarin.sflistview.17.2.0.46.nupkg.sha512",
         "syncfusion.xamarin.sflistview.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfMaskedEdit/17.2.0.46": {
+      "sha512": "fWvd069p2/9EwB4m9nx5ZjRAgitd3WVA+XRsA7nvuWC1AOtQXAAqZOxaHkcsL2kVkxojZRk2pjwPIDT8vd7QHw==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfmaskededit/17.2.0.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfMaskedEdit.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfMaskedEdit.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfMaskedEdit.XForms.xml",
+        "syncfusion.xamarin.sfmaskededit.17.2.0.46.nupkg.sha512",
+        "syncfusion.xamarin.sfmaskededit.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
