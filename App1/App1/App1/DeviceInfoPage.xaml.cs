@@ -19,7 +19,20 @@ namespace App1
             
             if(DeviceViewModel.WarrantyExpirationDate != DateTime.MinValue)
             {
-                DateTextInput.Value = DeviceViewModel.WarrantyExpirationDate.Date;
+                var date = DeviceViewModel.WarrantyExpirationDate.Date;
+                var day = string.Empty;
+                var month = string.Empty;
+                var year = string.Empty;
+                if(date.Day < 10)
+                {
+                    day = "0" + date.Day.ToString();
+                }
+                if(date.Month < 10)
+                {
+                    month = "0" + date.Month.ToString();
+                }
+                year = date.Year.ToString();
+                DateTextInput.Value = day + "/" + month + "/" + year;
             }
             //DeviceInfoWarrantyExpirationDate.Text = string.Format("Дата истечения гарантийного срока {0}",
             //    deviseViewModel.WarrantyExpirationDate.ToShortDateString());
